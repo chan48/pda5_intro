@@ -2,9 +2,9 @@
 
 첫 수업에서 소개드렸던 docker toolbox에서의 python3 jupyter notebook image를 재실행하는 방법입니다.
 
-먼저 첫 수업시간에, docker toolbox 설치이후 rothnic/anaconda-notebook 이미지를 자여온후의 실행순서입니다.
+먼저 첫 수업시간에, docker toolbox 설치이후 rothnic/anaconda-notebook 이미지를  run 한 이후의 실행순서입니다.
 
--조교인 저의 실행환경은 윈도우즈7 입니다. mac의 경우 조금 다를 수 있으니 참고 부탁드립니다.
+-조교인 저의 실행환경은 윈도우즈7 입니다. mac의 경우 조금 다를 수 있으니 실행이 안되시면 문의 메일 부탁드립니다.-
 
 1.Docker Quickstart Terminal을 실행합니다.<br>
 <img width="239" height="256" src="/images/docker_1.png"></img><br><br>
@@ -15,7 +15,7 @@
 4.'rothnic/anaconda-notebook' 이미지를 정상적으로 가져오셨다면 "docker ps -a" 명령어 실행시 아래와같은 화면이 나옵니다.<br>
 여기서 container의 이름은 제가 임의대로 python으로 설정하였습니다<br>
 <img width="600" src="/images/docker_4.png"></img><br><br>
-5.이미지의 첫 실행에서는 "docker run -it -p 8888:8888 rothnic/anaconda-notebook"이라는 긴 명령어를 사용하셨지만 일단 한번 실행 하신이후에는 docker run ~~ 명령어를 통해 실행할 필요는 없습니다.<br>
+5.이미지의 첫 실행에서는 "docker run -it -p 8888:8888 rothnic/anaconda-notebook"이라는 긴 명령어를 사용하였지만 일단 한번 실행 하신이후에는 docker run ~~ 명령어를 통해 다시 긴 명령어를 실행할 필요는 없습니다.<br>
 'docker ps -a'를 통해 docker 위에 올린 container들을 확인하실 수 있습니다.<br>
 <img width="600" src="/images/docker_5.png"></img><br><br>
 6."docker restart python"-제가 명명한 rothnic/anaconda-notebook의 이름은 python 입니다- 를 통해서 올려놓은 컨테이너를 다시 실행시킵니다.<br>
