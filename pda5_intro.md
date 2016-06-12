@@ -27,7 +27,7 @@
 notebook을 통해 파이썬 코드를 실행하고 싶으시면 우측 'new'에서 python3를 클릭하시면 python3 버전의 notebook이 실행됩니다.
 <img width="600" src="/images/docker_7.png"></img><br><br>
 9.새로운 jupyter notebook에서 해당 코드를 입력하면서 실습합니다.
-<img width="600" src="/images/docker_8.png"></img><br><br>
+<img src="/images/docker_8.png"></img><br><br>
 10.상단 notebook 이름을 클릭하면 notebook의 이름변경 가능합니다.
-<img width="600" src="/images/docker_9.png"></img><br><br>
+<img src="/images/docker_9.png"></img><br><br>
 
