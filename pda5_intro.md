@@ -1,10 +1,16 @@
-### 파이썬 데이터 분석 5기 도커 사용하기
+### 파이썬 데이터 분석 5기 도커 가상환경 사용하기
 
 첫 수업에서 소개드렸던 docker toolbox에서의 python3 jupyter notebook image를 재실행하는 방법입니다.
 
-먼저 첫 수업시간에, docker toolbox 설치이후 rothnic/anaconda-notebook 이미지를  run 한 이후의 실행순서입니다.
+먼저 첫 수업시간에, docker toolbox 설치후 rothnic/anaconda-notebook 이미지를 run 한 이후의 실행순서입니다.<br>
+> 아래는 수업시간에 하였던 과정입니다. <br><br>
+>**도커 jupyter notebook 이미지 가져오기**<br>
+>docker pull rothnic/anaconda-notebook<br>
+>**도커 이미지 실행**<br>
+>docker run -it -p 8888:8888 --name="python35(혹은 원하는 이름)" rothnic/anaconda-notebook <br>
 
--조교인 저의 실행환경은 윈도우즈7 입니다. mac의 경우 조금 다를 수 있으니 실행이 안되시면 문의 메일 부탁드립니다.-
+
+-조교인 저의 실행환경은 윈도우즈7 입니다. 환경이 다를 수 있으니 실행이 안되시면 문의 메일 부탁드립니다.-
 
 1.Docker Quickstart Terminal을 실행합니다.<br>
 <img width="239" height="256" src="/images/docker_1.png"></img><br><br>
