@@ -1,5 +1,10 @@
 ### Anaconda 업데이트 관련 가이드입니다.
 
-1.
-2.
-3.
+update관련 내용입니다.
+
+1. jupyter notebook 내의 터미널을 엽니다.<br> <img src="./images/terminal_1.png"><img/><br/><br> (해당 터미널은 docker machine의 터미널이 아니며, 반드시 jupyter notebook 내의 터미널을 사용하시기 바랍니다. jupyter notebook 이 돌아가고 있는 container 내에서 업데이트 하셔야 합니다.
+2. "conda update conda"를 실행 합니다. <br> <img src="./images/conda_1.png"><img/><br/><br>
+3. "conda install numexpr"를 실행 합니다. <br> <img src="./images/conda_2.png"><img/><br/><br>
+4. "pip install pandas_datareader"를 실행합니다. 강의 예제중 pandas_datareader 를 불러오지 못하신분들은 설치해주시기 바랍니다.
+
+수정 업데이트중이니 참고 부탁드리겠습니다.
