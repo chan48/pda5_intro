@@ -6,5 +6,8 @@
 2. "conda update conda"를 실행 합니다. <br> <img src="./images/conda_1.png"><img/><br/><br>
 3. "conda install numexpr"를 실행 합니다. <br> <img src="./images/conda_2.png"><img/><br/><br>
 4. "pip install pandas_datareader"를 실행합니다. <br>**강의 예제중 pandas_datareader 를 불러오지 못하신분들은 설치해주시기 바랍니다.**<br/>
+5. 매니저님이 댓글 달아주신 부분 "conda update pandas" 실행
 
-위의 내용은 아직 수정 업데이트중입니다.(2016/6/20 14:18KST)
+
+수정 완료.(2016/6/20 17:25KST)
+끝.
